@@ -1,5 +1,9 @@
 package Arrays_and_Hashing.Contains_Duplicate;
 
+import java.util.HashSet;
+import java.util.Optional;
+import java.util.Set;
+
 public class Optimal {
     public boolean hasDuplicate(int[] nums) {
         Set<Integer> seen = new HashSet<>();
