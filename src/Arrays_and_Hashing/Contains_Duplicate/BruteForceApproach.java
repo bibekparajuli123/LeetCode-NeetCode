@@ -1,5 +1,7 @@
 package Arrays_and_Hashing.Contains_Duplicate;
 
+import java.util.Arrays;
+
 public class BruteForceApproach {
     public boolean hasDuplicate(int[] nums) {
         Arrays.sort(nums);
